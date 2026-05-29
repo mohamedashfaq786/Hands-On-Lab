@@ -25,7 +25,8 @@ SAML allows Okta to act as an Identity Provider (IdP). When a user logs into Goo
 
 **Step 1** — Log in to your Okta Admin Console and navigate to **Applications → Applications**.
 
-![Step 1](images/image1.png)
+<img width="975" height="534" alt="image" src="https://github.com/user-attachments/assets/d41eae06-651f-4803-bab2-116c24dc4d56" />
+
 
 **Step 2** — Click **Browse App Catalog** to search for a pre-built integration.
 
