@@ -147,67 +147,63 @@ SAML allows Okta to act as an Identity Provider (IdP). When a user logs into Goo
 
 **Step 3** — Enter your ServiceNow instance URL in the General Settings (e.g., `https://yourinstance.service-now.com`).
 
-![Step 3](images/image23.png)
+<img width="975" height="514" alt="image" src="https://github.com/user-attachments/assets/3a7d54c3-3cad-470c-b869-3ce301b17477" />
+
 
 **Step 4** — On the **Sign-On** tab, select **SAML 2.0**.
 
-![Step 4](images/image24.png)
+<img width="975" height="540" alt="image" src="https://github.com/user-attachments/assets/4e6092b9-4135-49c4-b999-31dc54864170" />
+
 
 **Step 5** — Copy the **Metadata URL** from Okta — you will paste this in ServiceNow.
 
-![Step 5](images/image25.png)
+<img width="975" height="531" alt="image" src="https://github.com/user-attachments/assets/02939a48-14e9-40c4-bb83-dcc55809fa79" />
+
 
 **Step 6** — Log in to your **ServiceNow** instance as an admin and navigate to **Multi-Provider SSO → Identity Providers**.
 
-![Step 6](images/image26.png)
+<img width="975" height="516" alt="image" src="https://github.com/user-attachments/assets/6f89d9f4-1ca7-4da1-a218-97d3dea73839" />
+
+<img width="975" height="418" alt="image" src="https://github.com/user-attachments/assets/f3a6804a-3614-4f94-9283-275e879bfba4" />
+
 
 **Step 7** — Click **New** and choose **SAML** as the type.
 
-![Step 7](images/image27.png)
+<img width="975" height="321" alt="image" src="https://github.com/user-attachments/assets/79015a74-7126-4381-91f3-f9aef44c1bb4" />
+
+<img width="975" height="208" alt="image" src="https://github.com/user-attachments/assets/07e99e51-87c2-4ecb-bef6-e8d432143c26" />
+
+<img width="975" height="228" alt="image" src="https://github.com/user-attachments/assets/0a43322e-bfad-4240-800e-19cca2811b1e" />
+
 
 **Step 8** — Paste the **Okta Metadata URL** and click **Import**.
 
-![Step 8](images/image28.png)
+<img width="975" height="417" alt="image" src="https://github.com/user-attachments/assets/657586c8-d5d5-4751-8453-708687d889ca" />
+
 
 **Step 9** — Review the auto-populated SAML settings and save.
 
-![Step 9](images/image29.png)
+<img width="975" height="479" alt="image" src="https://github.com/user-attachments/assets/b272735d-f3c7-4168-9e68-37bda06a383d" />
+
 
 **Step 10** — Enable the Identity Provider and set it as default (optional).
 
-![Step 10](images/image30.png)
+<img width="975" height="535" alt="image" src="https://github.com/user-attachments/assets/59e6e3a6-fb10-415f-9654-922105b73c0c" />
+
 
 **Step 11** — Back in Okta, go to the **Assignments** tab and assign users to ServiceNow.
 
-![Step 11](images/image31.png)
+<img width="975" height="510" alt="image" src="https://github.com/user-attachments/assets/a279314a-4458-42d3-b0a3-527a8a7991c2" />
+
 
 **Step 12** — Test SSO by accessing ServiceNow from the Okta dashboard.
 
-![Step 12](images/image32.png)
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/22a56226-3558-4df7-a523-990ee9197ef7" />
 
-**Step 13** — Confirm successful login to the ServiceNow User Dashboard.
 
-![Step 13](images/image33.png)
+**Step 13** — ServiceNow SAML integration is now complete ✅
 
-**Step 14** — Configure attribute mappings if needed (e.g., email, username).
-
-![Step 14](images/image34.png)
-
-**Step 15** — Optionally enable **Provisioning** to auto-create ServiceNow users from Okta.
-
-![Step 15](images/image35.png)
-
-**Step 16** — Activate provisioning and map attributes between Okta and ServiceNow.
-
-![Step 16](images/image36.png)
-
-**Step 17** — Test the provisioning by pushing a user to ServiceNow.
-
-![Step 17](images/image37.png)
-
-**Step 18** — ServiceNow SAML integration is now complete ✅
-
-![Step 18](images/image38.png)
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/3c03dd71-7278-4562-9121-d478ac26a991" />
 
 ---
 
