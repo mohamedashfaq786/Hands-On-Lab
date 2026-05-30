@@ -216,75 +216,69 @@ SAML allows Okta to act as an Identity Provider (IdP). When a user logs into Goo
 
 **Step 1** — In Okta, go to **Applications → Browse App Catalog** and search for **Atlassian Cloud**.
 
-![Step 1](images/image39.png)
+<img width="975" height="430" alt="image" src="https://github.com/user-attachments/assets/db97fa85-af89-4286-99e4-bc6da3c1b14a" />
+
 
 **Step 2** — Select **Atlassian Cloud** and click **Add Integration**.
 
-![Step 2](images/image40.png)
+<img width="975" height="333" alt="image" src="https://github.com/user-attachments/assets/e82c9aae-43c0-4dbc-a17b-4f2849472cf0" />
+
 
 **Step 3** — Enter your Atlassian organization details in General Settings.
 
-![Step 3](images/image41.png)
+<img width="975" height="333" alt="image" src="https://github.com/user-attachments/assets/e82c9aae-43c0-4dbc-a17b-4f2849472cf0" />
 
 **Step 4** — On the Sign-On tab, select **SAML 2.0** and copy the Metadata URL.
 
-![Step 4](images/image42.png)
+<img width="975" height="509" alt="image" src="https://github.com/user-attachments/assets/16081e6a-0a06-4c8d-bca8-efe4d4f4a889" />
+
 
 **Step 5** — Log in to **admin.atlassian.com** → **Security → SAML single sign-on**.
 
-![Step 5](images/image43.png)
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/4acf6d73-606b-4606-bed4-defae2aa318e" />
+
 
 **Step 6** — Click **Add SAML configuration** and paste the Okta **SSO URL** and **Certificate**.
 
-![Step 6](images/image44.png)
+<img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/8e1548ce-1f64-4c02-8a7f-27871381e089" />
+
 
 **Step 7** — Copy the **SP Entity ID** and **ACS URL** from Atlassian and enter them back in Okta.
 
-![Step 7](images/image45.png)
+<img width="975" height="519" alt="image" src="https://github.com/user-attachments/assets/6849ee00-a3de-4f53-92d9-a3126981d198" />
+
 
 **Step 8** — Save the SAML configuration in Atlassian Admin.
 
-![Step 8](images/image46.png)
+<img width="975" height="459" alt="image" src="https://github.com/user-attachments/assets/f79b4323-9a61-4a70-ae17-2c3940346e9e" />
 
-**Step 9** — Verify the domain in Atlassian (follow the TXT record verification process).
+<img width="975" height="474" alt="image" src="https://github.com/user-attachments/assets/ac53e6c7-312e-41a3-a5ec-83bfa26c5d21" />
 
-![Step 9](images/image47.png)
+<img width="975" height="524" alt="image" src="https://github.com/user-attachments/assets/632c059c-bcf6-4abf-a2f4-e06f9a8d9ef6" />
 
-**Step 10** — Enforce SSO for your Atlassian organization.
+<img width="975" height="452" alt="image" src="https://github.com/user-attachments/assets/a6a899f5-15e8-4f5f-bca0-47f7aada8826" />
 
-![Step 10](images/image48.png)
+<img width="975" height="436" alt="image" src="https://github.com/user-attachments/assets/a8720b03-cf19-4aeb-a632-36341840523f" />
 
-**Step 11** — Back in Okta, assign users or groups to the Atlassian Cloud app.
 
-![Step 11](images/image49.png)
+**Step 9** — Back in Okta, assign users or groups to the Atlassian Cloud app.
 
-**Step 12** — Test login by accessing Jira or Confluence — you should be redirected to Okta for authentication.
+<img width="975" height="493" alt="image" src="https://github.com/user-attachments/assets/bf9190ed-337b-4095-ac0d-225ff22f36d8" />
 
-![Step 12](images/image50.png)
+<img width="975" height="389" alt="image" src="https://github.com/user-attachments/assets/50392327-9532-4561-959e-1df20b3dd475" />
 
-**Step 13** — Confirm the SAML assertion is working (user logs in successfully).
+<img width="975" height="513" alt="image" src="https://github.com/user-attachments/assets/89bb95c7-5c51-48c0-bddd-796ed97fc25f" />
 
-![Step 13](images/image51.png)
+<img width="975" height="534" alt="image" src="https://github.com/user-attachments/assets/0b152582-8ae6-4b55-9c50-4be6ea15989e" />
 
-**Step 14** — Configure **User Provisioning (SCIM)** in Atlassian Admin → **User provisioning**.
+<img width="975" height="396" alt="image" src="https://github.com/user-attachments/assets/025b839c-aac4-49e3-b57c-5f80d5806141" />
 
-![Step 14](images/image52.png)
+<img width="975" height="406" alt="image" src="https://github.com/user-attachments/assets/729134d9-b152-4e32-93da-2518e73beb7a" />
 
-**Step 15** — Enable SCIM and copy the **SCIM Base URL** and **API Key** from Atlassian.
 
-![Step 15](images/image53.png)
+**Step 10** — Atlassian Cloud SAML + SCIM integration is now complete ✅
 
-**Step 16** — In Okta, go to the **Provisioning** tab of the Atlassian Cloud app and enter the SCIM credentials.
-
-![Step 16](images/image54.png)
-
-**Step 17** — Enable provisioning features and test the connection.
-
-![Step 17](images/image55.png)
-
-**Step 18** — Atlassian Cloud SAML + SCIM integration is now complete ✅
-
-![Step 18](images/image56.png)
+<img width="975" height="475" alt="image" src="https://github.com/user-attachments/assets/c751e568-bcee-435c-9ed6-bdae5f8f9bd9" />
 
 ---
 
@@ -299,23 +293,27 @@ SAML allows Okta to act as an Identity Provider (IdP). When a user logs into Goo
 
 **Step 1** — In Okta, go to **Applications → Browse App Catalog** and search for **Microsoft Azure**.
 
-![Step 1](images/image57.png)
+<img width="975" height="485" alt="image" src="https://github.com/user-attachments/assets/7766c18f-e73f-424e-814b-f7f5a01adaf2" />
+
 
 **Step 2** — Select the app and click **Add Integration**.
 
-![Step 2](images/image58.png)
+<img width="975" height="409" alt="image" src="https://github.com/user-attachments/assets/d34ea64b-2faa-4ffe-829a-5e9876dd31e2" />
+
 
 **Step 3** — In General Settings, configure the app name and visibility.
 
-![Step 3](images/image59.png)
+<img width="975" height="408" alt="image" src="https://github.com/user-attachments/assets/0c48a0c3-445b-47d2-b54f-71adf0b07caa" />
+
 
 **Step 4** — On the **Sign-On** tab, select **Secure Web Authentication (SWA)**.
 
-![Step 4](images/image60.png)
+<img width="975" height="507" alt="image" src="https://github.com/user-attachments/assets/671490d8-7cf2-45e5-8397-f3625700199f" />
+
 
 **Step 5** — Enter the Microsoft Azure login URL and configure the login fields.
 
-![Step 5](images/image61.png)
+<img width="975" height="495" alt="image" src="https://github.com/user-attachments/assets/9ced4b03-0338-49ee-a2af-367369b6a7a4" />
 
 **Step 6** — Set the **Credential Strategy** — choose whether users set their own password or admin assigns it.
 
@@ -323,11 +321,16 @@ SAML allows Okta to act as an Identity Provider (IdP). When a user logs into Goo
 
 **Step 7** — Go to the **Assignments** tab and assign the app to users.
 
-![Step 7](images/image63.png)
+<img width="975" height="495" alt="image" src="https://github.com/user-attachments/assets/f5c609e3-2eec-42cd-8505-aee78c751728" />
+
 
 **Step 8** — Assigned users will be prompted to save their Azure credentials the first time they click the app from their Okta dashboard.
 
-![Step 8](images/image64.png)
+<img width="975" height="524" alt="image" src="https://github.com/user-attachments/assets/1cc9a6c8-10cf-4150-b5d6-d60d51c39bdd" />
+
+<img width="975" height="527" alt="image" src="https://github.com/user-attachments/assets/c60df06d-2644-449a-bfa5-559908abc52c" />
+
+<img width="975" height="561" alt="image" src="https://github.com/user-attachments/assets/6f3333c6-0a7f-4cb3-8e21-9bc94ff98e19" />
 
 ---
 
@@ -347,97 +350,72 @@ This integration allows your on-premises Windows Active Directory users to log i
 
 **Step 1** — In Okta Admin Console, go to **Directory → Directory Integrations** and click **Add Directory**.
 
-![Step 1](images/image65.png)
+<img width="975" height="525" alt="image" src="https://github.com/user-attachments/assets/ce273a74-eec6-4b77-88d1-36b45c50b11c" />
 
 **Step 2** — Select **Active Directory** as the directory type.
 
-![Step 2](images/image66.png)
+<img width="975" height="528" alt="image" src="https://github.com/user-attachments/assets/6ec1e153-e468-47c9-94d4-81f3c90b27f8" />
+
 
 **Step 3** — Download the **Okta AD Agent** installer from the link shown on screen.
 
-![Step 3](images/image67.png)
+<img width="975" height="516" alt="image" src="https://github.com/user-attachments/assets/6de54912-f10b-41f2-81a4-bf93215300df" />
+
 
 **Step 4** — Run the AD Agent installer on your **Windows Server** that has Active Directory.
 
-![Step 4](images/image68.png)
+<img width="975" height="524" alt="image" src="https://github.com/user-attachments/assets/bd87122a-7744-40ef-8cf8-0d4722b12fd1" />
+
 
 **Step 5** — During installation, sign in with your **Okta Admin credentials** to link the agent to your Okta org.
 
-![Step 5](images/image69.png)
+<img width="975" height="527" alt="image" src="https://github.com/user-attachments/assets/77386e12-36f0-4d6c-bd85-975530172ca6" />
+
+<img width="975" height="527" alt="image" src="https://github.com/user-attachments/assets/1074cfdb-5983-4b01-bb84-be364c1350c8" />
+
 
 **Step 6** — Select the **Active Directory domain** to integrate.
 
-![Step 6](images/image70.png)
+<img width="975" height="524" alt="image" src="https://github.com/user-attachments/assets/d5856b8c-05a1-427c-85b3-d044303b0c85" />
+
 
 **Step 7** — Grant the Okta AD Agent the required **service account permissions** in AD.
 
-![Step 7](images/image71.png)
+<img width="975" height="525" alt="image" src="https://github.com/user-attachments/assets/f67ed248-5ad2-4d9b-98d5-0fd526611454" />
+
 
 **Step 8** — The agent connects and shows **Active** status in the Okta Admin Console.
 
-![Step 8](images/image72.png)
+<img width="975" height="529" alt="image" src="https://github.com/user-attachments/assets/7805a58b-5347-41d7-aaf3-3467ac39f323" />
+
 
 **Step 9** — Configure which **OUs (Organizational Units)** to import users from.
 
-![Step 9](images/image73.png)
+<img width="975" height="528" alt="image" src="https://github.com/user-attachments/assets/b1c19889-3193-4d5e-aeeb-fbbfdcae1d3d" />
+
 
 **Step 10** — Run an **Import** to pull AD users into Okta.
 
-![Step 10](images/image74.png)
+<img width="975" height="530" alt="image" src="https://github.com/user-attachments/assets/4fd0ee77-3766-4bb9-aa10-ef485937a987" />
+
 
 **Step 11** — Review imported users and confirm or auto-confirm the matches.
 
-![Step 11](images/image75.png)
+<img width="975" height="528" alt="image" src="https://github.com/user-attachments/assets/39970c81-43d7-4edd-b53a-7306c25d16ea" />
+
 
 **Step 12** — Configure **attribute mappings** between AD fields and Okta profile attributes.
 
-![Step 12](images/image76.png)
+<img width="975" height="526" alt="image" src="https://github.com/user-attachments/assets/adf9944c-e2de-42a7-b99c-72c7992ec71f" />
 
-**Step 13** — Enable **AD-Delegated Authentication** so that users authenticate against AD passwords (not Okta passwords).
 
-![Step 13](images/image77.png)
+**Step 13** — Active Directory integration is now complete ✅
 
-**Step 14** — Verify the agent status shows all agents as **Active**.
+<img width="975" height="524" alt="image" src="https://github.com/user-attachments/assets/890c52ff-24b5-4a52-9cb8-37d05fd70290" />
 
-![Step 14](images/image78.png)
+<img width="975" height="508" alt="image" src="https://github.com/user-attachments/assets/7ceec2f4-f57c-4003-a78d-470acf1c0488" />
 
-**Step 15** — Test login with an AD user account on the Okta login page.
+<img width="975" height="507" alt="image" src="https://github.com/user-attachments/assets/da324f25-aaf1-4096-8a76-8f785254afc5" />
 
-![Step 15](images/image79.png)
+<img width="975" height="509" alt="image" src="https://github.com/user-attachments/assets/5cb3e179-8da3-4f29-9498-19e57ec78292" />
 
-**Step 16** — The user is authenticated against Active Directory via Okta ✅
-
-![Step 16](images/image80.png)
-
-**Step 17** — Active Directory integration is now complete ✅
-
-![Step 17](images/image81.png)
-
----
-
-## Summary
-
-| # | App | Auth Type | Status |
-|---|-----|-----------|--------|
-| 1 | Google Workspace | SAML 2.0 | ✅ |
-| 2 | ServiceNow | SAML 2.0 | ✅ |
-| 3 | Atlassian Cloud | SAML 2.0 + SCIM | ✅ |
-| 4 | Microsoft Azure | SWA | ✅ |
-| 5 | Active Directory | AD Agent | ✅ |
-
----
-
-## Key Concepts
-
-| Term | Meaning |
-|------|---------|
-| **SAML** | XML-based standard for SSO — Okta sends a signed "assertion" to the app confirming the user's identity |
-| **SWA** | Okta stores and replays your username/password for apps that don't support SAML |
-| **IdP** | Identity Provider — Okta plays this role, handling logins |
-| **SP** | Service Provider — the app (Google, Jira, etc.) that trusts Okta |
-| **SCIM** | Protocol to automatically create/update/delete user accounts in apps |
-| **AD Agent** | A small software installed on your Windows Server to bridge AD with Okta |
-
----
-
-*Hands-on lab completed using Okta Free Developer Account.*
