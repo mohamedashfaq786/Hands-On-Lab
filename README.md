@@ -30,67 +30,83 @@ SAML allows Okta to act as an Identity Provider (IdP). When a user logs into Goo
 
 **Step 2** — Click **Browse App Catalog** to search for a pre-built integration.
 
-![Step 2](images/image2.png)
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/161e54ee-7e48-45d9-a58f-a2f556d71d96" />
+
 
 **Step 3** — Search for **Google Workspace** in the catalog and select it.
 
-![Step 3](images/image3.png)
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/32f4cb34-c8a4-49a2-bdf2-9bb192716df1" />
+
 
 **Step 4** — Click **Add Integration** to begin the setup.
 
-![Step 4](images/image4.png)
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/32f4cb34-c8a4-49a2-bdf2-9bb192716df1" />
 
 **Step 5** — Fill in the **General Settings** for the Google Workspace app (display name, visibility options).
 
-![Step 5](images/image5.png)
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/c7e465ff-1557-4725-ba8d-2711147e574f" />
 
 **Step 6** — Move to the **Sign-On** tab and select **SAML 2.0** as the sign-on method.
 
-![Step 6](images/image6.png)
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/126b9c66-f739-40f4-85da-158d966432fe" />
+
 
 **Step 7** — Configure the SAML settings — enter your Google domain details.
 
-![Step 7](images/image7.png)
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/4309c80a-dec6-4340-951e-70e3e360e0aa" />
+
 
 **Step 8** — Under **Credentials Details**, set the Application username format.
 
-![Step 8](images/image8.png)
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/4309c80a-dec6-4340-951e-70e3e360e0aa" />
 
 **Step 9** — Note the **Identity Provider metadata** URL (you will need this in Google Admin Console).
 
-![Step 9](images/image9.png)
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/4309c80a-dec6-4340-951e-70e3e360e0aa" />
 
 **Step 10** — Go to the **Assignments** tab and assign the app to users or groups.
 
-![Step 10](images/image10.png)
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/4309c80a-dec6-4340-951e-70e3e360e0aa" />
 
 **Step 11** — Log in to the **Google Admin Console** (`admin.google.com`) and navigate to **Security → Authentication → SSO with third-party IdP**.
 
-![Step 11](images/image11.png)
+<img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/dc0676a3-a394-4f0e-8c51-6ed8964c1aba" />
+
 
 **Step 12** — Enable SSO and paste in the **SSO URL**, **Entity ID**, and upload the **certificate** from Okta.
 
-![Step 12](images/image12.png)
+<img width="975" height="550" alt="image" src="https://github.com/user-attachments/assets/66ff97c9-70a2-40f5-98fb-cd03715dafbd" />
+
 
 **Step 13** — Save the configuration in Google Admin Console.
 
-![Step 13](images/image13.png)
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/5dc047dc-786c-4886-9228-03322eb8dd15" />
+
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/7dd70c2c-06d6-4fdc-858a-97cbb5a7d346" />
+
 
 **Step 14** — Back in Okta, verify the integration status shows as active.
 
-![Step 14](images/image14.png)
+<img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/4daa142c-17be-4acd-b2e4-99370f725df3" />
+
 
 **Step 15** — Test the integration by accessing Google Workspace from the Okta dashboard.
 
-![Step 15](images/image15.png)
+<img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/d5631081-2379-4c53-8b8c-3704652ef061" />
+
 
 **Step 16** — Confirm successful SSO login to Google Workspace.
 
-![Step 16](images/image16.png)
+<img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/7ce4b371-b734-4355-9e2c-6776ee1ad7f2" />
+
 
 **Step 17** — Review the sign-on policy settings if needed.
 
-![Step 17](images/image17.png)
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/11335c79-790f-4d4d-a5a3-2a4a321f716b" />
+
+<img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/de97933e-b655-42f6-8bb4-866d49ed81f7" />
+
+
 
 **Step 18** — Optionally configure **Provisioning** to auto-create accounts in Google.
 
@@ -98,11 +114,17 @@ SAML allows Okta to act as an Identity Provider (IdP). When a user logs into Goo
 
 **Step 19** — Enable provisioning features (Create Users, Update Attributes, Deactivate Users).
 
-![Step 19](images/image19.png)
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/f1eb5c08-69b2-4aff-9a1f-c05f10ecebd5" />
+
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/e4f40a04-e89f-4770-ac56-7f886e12f499" />
+
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/037ff37c-edbb-47c9-960c-fa1b913faeb0" />
+
 
 **Step 20** — Google Workspace SAML integration is now complete ✅
 
-![Step 20](images/image20.png)
+<img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/4102fc40-771e-4aae-8337-82aaf3e7788a" />
+
 
 ---
 
