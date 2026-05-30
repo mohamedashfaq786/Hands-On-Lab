@@ -110,7 +110,7 @@ SAML allows Okta to act as an Identity Provider (IdP). When a user logs into Goo
 
 **Step 18** — Optionally configure **Provisioning** to auto-create accounts in Google.
 
-![Step 18](images/image18.png)
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/f1eb5c08-69b2-4aff-9a1f-c05f10ecebd5" />
 
 **Step 19** — Enable provisioning features (Create Users, Update Attributes, Deactivate Users).
 
@@ -137,11 +137,13 @@ SAML allows Okta to act as an Identity Provider (IdP). When a user logs into Goo
 
 **Step 1** — In Okta Admin Console, go to **Applications → Browse App Catalog** and search for **ServiceNow**.
 
-![Step 1](images/image21.png)
+<img width="975" height="425" alt="image" src="https://github.com/user-attachments/assets/2db7626d-76aa-4a26-9b2a-05c295bdddcc" />
+
 
 **Step 2** — Select **ServiceNow** and click **Add Integration**.
 
-![Step 2](images/image22.png)
+<img width="975" height="449" alt="image" src="https://github.com/user-attachments/assets/ae7c6ea3-dc94-4b50-aade-a04da78a7c7a" />
+
 
 **Step 3** — Enter your ServiceNow instance URL in the General Settings (e.g., `https://yourinstance.service-now.com`).
 
